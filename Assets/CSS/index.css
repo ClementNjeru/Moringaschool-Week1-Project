@@ -1,4 +1,10 @@
 
+*{
+    padding:0;
+    font-family: 'Nunito', sans-serif;
+}
+
+
 .menu{
     display: flex;
     justify-content: space-between;
@@ -193,4 +199,11 @@ button {
      .chris{
          background-image: url("./Assets/images/image 8.png");
      }
+
+     .date h3{
+        position:relative;
+        top:-50px;
+        right:-10px;
+        color:white;
+    }
     
