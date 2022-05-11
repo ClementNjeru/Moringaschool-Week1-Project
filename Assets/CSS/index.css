@@ -1,29 +1,29 @@
-div.menu{
+
+.menu{
     display: flex;
     justify-content: space-between;
 }
-div.menu ul{
-    margin: 0;
-    padding: 50px;
+.menu ul{
+    margin: -10px;
+    padding: 20px;
     list-style: none;
     font-family: 'Nunito', sans-serif
 }
-div.menu ul li{
+.menu ul li{
     display: inline-block;
 
 }
 body {
-    margin: 53px;
-    
+    margin: 53px; 
 }
 
 .vertical{
-    width: 43%;
+    width: 50%;
     float: left;
     padding: 2px 20px;
     font-family: 'Nunito', sans-serif;
   }
-  
+
   .horizontal {
       margin: -30 40px;
       display: flex;
@@ -31,7 +31,10 @@ body {
       font-family: 'Nunito', sans-serif;
       margin-bottom: 3rem;
     }
-
+    
+    .p1{
+        font-size: 20px;
+    }
   .horizontal:after {
       content: "";
     display: table;
@@ -101,7 +104,7 @@ h4{
 }
 .footer{
     font-family: 'Nunito', sans-serif;
-	padding: 40px;
+	padding: 50px;
     font-size: 15px;
 }
 p{
@@ -190,3 +193,4 @@ button {
      .chris{
          background-image: url("./Assets/images/image 8.png");
      }
+    
